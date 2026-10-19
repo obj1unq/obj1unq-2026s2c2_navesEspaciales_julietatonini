@@ -2,6 +2,10 @@
 
 En un futuro distante, donde las actividades se derrollan en un ambiente interplanetario, nos piden un sistema que modele distintas naves y su comportamiento ante una amenaza.
 
+
+
+
+
 ## 1. Las naves
 
 De las naves conocemos su velocidad, medida en _kms/seg_; y, por ahora, nos pidieron modelar los siguientes tipos:
@@ -12,9 +16,17 @@ De las naves conocemos su velocidad, medida en _kms/seg_; y, por ahora, nos pidi
 
 - **Naves de combate**: pueden emitir mensajes y tiene 2 modos: _en reposo_ o _ataque_. Sabemos que al viajar a menos de 10.000 kms/seg y estar en modo ataque la nave es invisible para los enemigos. Al recibir una amenaza, si está en reposo emite el mensaje `"¡RETIRADA!"` y el modo ataque emite el mensaje `"Enemigo encontrado"`.
 
+
+
+
 ### Ejercicio
 
 Analizar si el código predeterminado debe reestructurarse mediante alguna herencia. En caso que si, modificarlo y justificar.
+
+
+
+
+
 
 ## 2. Propulsión
 
@@ -23,6 +35,12 @@ Al código predeterminado se le debe incorporar la función que permite que toda
 ### Escenario de prueba 
 
 Testear que una nave de carga sin velocidad al propulsarse queda con una velocidad de 20.000 kms/seg. Y que una nave de pasajeros que viaja a 290.000 kms/seg al propulsarse queda viajando a 300.000 kms/seg.
+
+
+
+
+
+
 
 ## 3. Residuos radioactivos
 
