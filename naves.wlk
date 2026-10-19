@@ -4,6 +4,14 @@ class Nave {
 
 
 	method recibirAmenaza()
+	
+	method propulsar(){
+		if (velocidad + 20000 > 300000) {
+			velocidad = 300000
+		} else {
+			velocidad =+ 20000
+		}
+	}
 
 }
 
